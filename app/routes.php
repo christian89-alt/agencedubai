@@ -16,7 +16,11 @@ return function (App $app) {
     });
 
     $app->get('/', function (Request $request, Response $response) {
-        $response->getBody()->write('Hello world!');
+        $response->getBody()->write('Bonjour les gens!');
+        return $response;
+    });
+    $app->get('/contact', function (Request $request, Response $response) {
+        $response->getBody()->write('contact');
         return $response;
     });
 
