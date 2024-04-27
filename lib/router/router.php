@@ -1,8 +1,7 @@
 <?php
 
 namespace Plugo\Router;
-require dirname(__DIR__, 2) . '/config/routes.php';
-
+require dirname(__DIR__, 2) . '.../config/route.php';
 
 class Router {
 
@@ -16,4 +15,3 @@ class Router {
 	}
 
 }
-
